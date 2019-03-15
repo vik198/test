@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: darkslategrey;
+}
+
+.App-link {
+  color: darkslategrey;
+}
+.header{
+    height: 100px;
+    background:  #00838f;
+    padding: 0 20px;
+    color: #fff;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.logo{
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+}
+.menu{
+    float: right;
+    line-height: 100px;
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+.mw-100{
+    min-width: 100%;
+}
+
+nav{
+    margin: auto;
+    width: 800px;
+    height: 100px;
+}
+.topnav{
+    background-color: #fff;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.topnav a{
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+.topnav a:hover{
+    border-bottom: 2px solid #000;
+}
+
+.wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+.btn{
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00838f;
+    border: 1px solid #00838f;
+    padding: 15px 0;
+    margin: 20px auto;
+    cursor: pointer ;
+}
+.popup{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #00838f;
+    color: white;
+    padding: 30px;
+    position: relative;
+    transition: .5s all;
+    top: -9999px;
+}
+#modal:checked ~ .popup{
+    top: 0;
+}
+#modal{
+    display: none;
+}
+.popup input{
+    display: block;width: 100%;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+.submit{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transform: rotate(45deg);
+    font-size: 24px;
+    cursor: pointer;
+}
+footer {
+    height: auto;
+    background: #00838f;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: center;
+    border-bottom:3px solid #00838f;
+    position: relative;
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.social img:hover{
+    background: #4dd0e1;
+    border-radius: 50%;
+}
+footer p {
+     color: white;
+     margin-left: 10px;
+     text-align: center;
+     font-size: 14px;
+
+ }
+.copyright{
+    font-size: 14px;
+    text-align: center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+
+}

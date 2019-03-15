@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+      <link rel="stylesheet" href="App.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+      <title>React App</title>
+  </head>
+  <body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <header>
+      <div class="header">
+          <h2 class="logo">BlueCode</h2>
+          <input type="checkbox" id="chk">
+          <label for="chk" class="show-menu-btn">
+              <i class="fas fa-ellipsis-h"></i>
+          </label>
+
+          <ul class="menu">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Works</a>
+              <a href="#">Contact</a>
+              <label for="chk" class="hide-menu-btn">
+                  <i class="fas fa-times"></i>
+              </label>
+          </ul>
+      </div>
+  </header>
+    <main>
+        <img src="img/pic.png" alt="pic" class="mw-100">
+    </main>
+
+    </div>
+ <div class="wrapper">
+       <input type="checkbox" id="modal">
+       <label class="btn" for="modal">заказать звонок</label>
+       <form action="" class="popup">
+           <span>Введите ваши данные</span>
+           <input type="text">
+           <input type="text">
+           <input type="submit">
+           <label class="close" for="modal">+</label>
+       </form>
+   </div>
+
+
+  <footer>
+      <div class="social">
+          <a href="#"><img src="fb/em.png" alt=""></a>
+          <a href="#"><img src="fb/face.png" alt=""></a>
+          <a href="#"><img src="fb/goo.png" alt=""></a>
+          <a href="#"><img src="fb/inst.png" alt=""></a>
+      </div>
+      <p class="copyright">copyright  by Viktoria  2019</p>
+  </footer>
+
+  </body>
+</html>
