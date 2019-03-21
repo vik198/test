@@ -6,6 +6,7 @@ import ButtonAppBar from './components/appBar'
 import SimpleAppBar from './components/secondAppBar'
 import OutlinedButtons from './components/buttons'
 import OutlinedTextFields from'./components/textFields'
+import FolderList from'./components/group'
 
 import './App.css';
 
@@ -19,6 +20,7 @@ class App extends Component {
           <SimpleAppBar/>
           <OutlinedTextFields/>
           <OutlinedButtons/>
+          <FolderList/>
 
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
