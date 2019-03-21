@@ -21,7 +21,7 @@ const styles = theme => ({
         width: 200,
     },
 });
-//const currencies = [
+const currencies = [
     {
         value: 'USD',
         label: '$',
